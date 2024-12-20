@@ -4,7 +4,7 @@
 ## 1. Tên đề dự án
 ## Phân Đoạn Khu Vực Bị Lũ Lụt
 
-Dự án tập trung vào việc phát triển một mô hình học sâu nhằm tự động phân đoạn và xác định chính xác các khu vực ngập nước trong hình ảnh các khu vực bị ảnh hưởng bởi lũ lụt. Bộ dữ liệu bao gồm 290 hình ảnh thực tế và các mặt nạ chú thích tương ứng, được gắn nhãn bằng công cụ Label Studio.
+Dự án tập trung vào việc phát triển một mô hình học sâu nhằm tự động phân đoạn và xác định chính xác các khu vực ngập nước trong hình ảnh các khu vực bị ảnh hưởng bởi lũ lụt.
 
 ## 2. Motivation – WHY
 Tại sao nhóm lại muốn xây dựng sản phẩm này?
@@ -20,7 +20,7 @@ Tăng cường khả năng phân tích dữ liệu nhanh chóng, hỗ trợ các
 ## 3. Mục tiêu
 Các mục tiêu chi tiết của dự án:
 
-Xây dựng mô hình DeepLabV3+: Thiết kế và triển khai mô hình học sâu chuyên biệt cho nhiệm vụ phân đoạn ảnh.
+Xây dựng mô hình: Thiết kế và triển khai mô hình học sâu chuyên biệt cho nhiệm vụ phân đoạn ảnh.
 
 Phân tích và trực quan hóa dữ liệu: Tích hợp các công cụ hiển thị dữ liệu giúp dễ dàng đánh giá hiệu suất mô hình.
 
