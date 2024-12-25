@@ -1,45 +1,47 @@
-# PhanLoaiKhuVucNgapLut
-## MÔ TẢ Ý TƯỞNG DỰ ÁN KHÓA HỌC
+# 1. Tên đề dự án
+# Hệ thống AI phát hiện và chẩn đoán bệnh trên cây thông qua hình ảnh.
+Mô tả: Đây là một hệ thống sử dụng trí tuệ nhân tạo (AI), cụ thể là kỹ thuật học sâu (Deep Learning), để tự động nhận diện và chẩn đoán các bệnh phổ biến trên cây trồng bằng cách phân tích hình ảnh được chụp từ điện thoại, máy ảnh, hoặc thiết bị không người lái (drone).
 
-## 1. Tên đề dự án
-## Phân Đoạn Khu Vực Bị Lũ Lụt
+# 2. Motivation – WHY
+Hiện nay, ngành nông nghiệp phải đối mặt với nhiều thách thức trong việc nhận diện và xử lý bệnh cây một cách nhanh chóng và hiệu quả. Những khó khăn thường gặp gồm:
 
-Dự án tập trung vào việc phát triển một mô hình học sâu nhằm tự động phân đoạn và xác định chính xác các khu vực ngập nước trong hình ảnh các khu vực bị ảnh hưởng bởi lũ lụt.
+Thiếu chuyên môn: Nhiều nông dân không được đào tạo để nhận biết chính xác các loại bệnh trên cây.
+Phương pháp thủ công: Việc chẩn đoán bệnh thường yêu cầu chuyên gia hoặc các xét nghiệm phức tạp, gây tốn thời gian và chi phí.
+Thiệt hại kinh tế: Bệnh cây nếu không được phát hiện kịp thời sẽ dẫn đến mất mùa, giảm năng suất, ảnh hưởng nghiêm trọng đến thu nhập của nông dân.
+Dự án này ra đời với mong muốn tạo ra một công cụ hỗ trợ mạnh mẽ, giúp phát hiện bệnh cây nhanh chóng và chính xác, từ đó góp phần bảo vệ mùa màng, giảm thiểu chi phí, và nâng cao chất lượng nông sản.
 
-## 2. Motivation – WHY
-Tại sao nhóm lại muốn xây dựng sản phẩm này?
+# 3. Mục tiêu
+Phát triển mô hình AI:
 
-Đầu tháng 9-2024 miền bắc ta đã hứng chịu siêu bão yagi ngây thiệt hại rất nhiều, hậu bão thì nhiều nơi ngập lụt sâu. Như ta đã biết Lũ lụt là một trong những thảm họa thiên nhiên gây ra nhiều thiệt hại nhất về người và tài sản. Việc xác định và đánh giá mức độ ngập nước là nhiệm vụ cấp bách nhưng tiêu tốn nhiều thời gian và nguồn lực.
+Xây dựng và huấn luyện mô hình AI dựa trên kỹ thuật học sâu (Deep Learning) để nhận diện các bệnh phổ biến trên cây thông qua dữ liệu hình ảnh.
+Đảm bảo độ chính xác cao (tối thiểu 85%-90%) trong việc phát hiện và phân loại bệnh cây.
+Xây dựng ứng dụng thực tiễn:
 
-Sản phẩm này được xây dựng nhằm mục đích:
+Tích hợp mô hình AI vào ứng dụng web hoặc ứng dụng di động, giúp nông dân dễ dàng tải lên hình ảnh và nhận kết quả chẩn đoán.
+Thiết kế giao diện thân thiện, hỗ trợ nhiều ngôn ngữ (bao gồm tiếng Việt).
+Cung cấp giải pháp toàn diện:
 
-Tăng cường khả năng phân tích dữ liệu nhanh chóng, hỗ trợ các cơ quan chức năng trong việc lập kế hoạch cứu trợ hiệu quả hơn trong việc phân bổ lương thực thực phẩm, tránh nơi thừa nơi thiếu.
+Sau khi phát hiện bệnh, hệ thống sẽ cung cấp hướng dẫn chi tiết về các biện pháp xử lý bệnh (như dùng thuốc trừ sâu, phân bón, hoặc các kỹ thuật canh tác).
+Đưa ra các biện pháp phòng ngừa nhằm giảm nguy cơ tái phát bệnh.
+Hỗ trợ cộng đồng:
 
-Ứng dụng công nghệ AI để giảm thiểu sai sót và tối ưu hóa nguồn lực trong quản lý thiên tai.
+Tạo ra một công cụ miễn phí hoặc chi phí thấp, dễ tiếp cận cho nông dân ở Việt Nam và các quốc gia khác.
+# 4. Tính mới, tính sáng tạo
+Ứng dụng công nghệ hiện đại:
 
-## 3. Mục tiêu
-Các mục tiêu chi tiết của dự án:
+Sử dụng các mô hình học sâu tiên tiến như CNN (Convolutional Neural Network) hoặc Transfer Learning (ResNet, EfficientNet) để nhận diện bệnh cây.
+Tích hợp nhiều tính năng hữu ích:
 
-Xây dựng mô hình: Thiết kế và triển khai mô hình học sâu chuyên biệt cho nhiệm vụ phân đoạn ảnh.
+Chẩn đoán đa dạng loại bệnh trên nhiều loại cây trồng khác nhau (lúa, rau củ, cây ăn trái, v.v.).
+Hỗ trợ chẩn đoán từ hình ảnh chụp cận cảnh (lá, quả, thân cây) hoặc từ hình ảnh chụp trên không (drone).
+Thân thiện với người dùng:
 
-Phân tích và trực quan hóa dữ liệu: Tích hợp các công cụ hiển thị dữ liệu giúp dễ dàng đánh giá hiệu suất mô hình.
+Giao diện đơn giản, dễ sử dụng ngay cả với người không rành công nghệ.
+Hỗ trợ phản hồi theo thời gian thực, giúp nông dân xử lý kịp thời các vấn đề trên cây trồng.
+Tính linh hoạt và mở rộng:
 
-Ứng dụng thực tế: Tạo ra một công cụ có thể áp dụng trong khảo sát hiện trường, lập bản đồ vùng ngập lụt, và hỗ trợ ra quyết định nhanh chóng.
-
-Tối ưu hóa mô hình: Đảm bảo hiệu suất cao và khả năng dự đoán chính xác trong các trường hợp dữ liệu thực tế đa dạng.
-
-## 4. Tính mới, tính sáng tạo
-Những điểm nổi bật và khác biệt:
-
-Ứng dụng mô hình DeepLabV3+ tiên tiến: Đây là một trong những kiến trúc mạng nơ-ron hàng đầu trong lĩnh vực phân đoạn ảnh, đảm bảo độ chính xác cao.
-
-Tích hợp dữ liệu thực tế: Sử dụng bộ dữ liệu thật từ các khu vực bị lũ lụt, giúp mô hình phù hợp với các kịch bản thực tế.
-
-Hình dung dự đoán thông minh: Hiển thị trực quan kết quả phân đoạn, giúp người dùng dễ dàng hiểu và áp dụng kết quả vào thực tiễn.
-
-## 5. Team members
-Danh sách các thành viên tham gia dự án:
-
-Vũ Viết Thương 
-
+Cơ sở dữ liệu hình ảnh có thể liên tục cập nhật để mở rộng phạm vi nhận diện bệnh trên các loại cây mới.
+Khả năng tích hợp thêm các tính năng như theo dõi tình trạng cây trồng qua thời gian hoặc phân tích hiệu quả của biện pháp xử lý.
+# 5. Team members
+Vũ Viết Thương
 Đỗ Sỹ Chiến
