@@ -1,0 +1,12 @@
+{% extends "index.html" %} {% block body %}
+<div class="audioContainer">
+    <audio controls>
+        <source src="{{ audio_file }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+
+<div class="warn_msg">
+    <h5>Download this file if you want, because it will be deleted from this server soon!</h5>
+</div>
+{% endblock %}
