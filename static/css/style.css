@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+html,body{
+    overflow-x: hidden;
+   
+ }
+
+
+.container{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.container h1{
+    font-family: Arial
+}
+
+
+.steps{
+    margin-top: 3rem;
+}
+
+.custom-circle-image {
+    width: 5vw; /* note i used vw not px for better responsive */
+    height: 5vw;
+}
+
+#voice-select{
+    width:12.7rem;
+}
+
+
+
+.container2{
+    text-align: center;
+}
+
+.container2_1{
+    display: flex;
+   
+}
+
+.box1{
+    flex: 1;
+  }
+.box2{
+    flex: 1;
+}
+.box3{
+    flex: 1;
+}
+
+#formFile{
+    width: fit-content;
+}
+
+
+
+.audioContainer{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.warn_msg,.error{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+
+
+footer{
+    text-align: center;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    color: black;
+}
+
+
+
+@media (max-width: 750px) {
+    .container2_1 {
+      flex-direction: column;
+    }
+
+    .box2{
+        margin-top: 1rem;
+    }
+
+    .custom-circle-image {
+        width: 8vw; 
+        height: 8vw;
+    }
+
+    footer{
+        position: relative;
+    }
+}
+
+@media (max-width: 510px) {
+    .custom-circle-image {
+        width: 10vw; 
+        height: 10vw;
+    } 
+}
+
+@media (max-width: 395px) {
+    .custom-circle-image {
+        width: 12vw; 
+        height: 12vw;
+    } 
+}
